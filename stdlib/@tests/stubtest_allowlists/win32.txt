@@ -4,8 +4,6 @@ ctypes.GetLastError  # Is actually a pointer
 multiprocessing.reduction.AbstractReducer.DupHandle
 
 # Exists at runtime, but missing from stubs
-encodings.mbcs
-encodings.oem
 _winapi.CreateFileMapping
 _winapi.MapViewOfFile
 _winapi.OpenFileMapping
@@ -45,6 +43,7 @@ curses.ascii
 curses.has_key
 curses.panel
 curses.textpad
+_curses_panel
 
 # Modules that rely on termios
 pty
